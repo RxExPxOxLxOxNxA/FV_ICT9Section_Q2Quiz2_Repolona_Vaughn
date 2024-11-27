@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite Characters</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .character-card {
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px;
+            color: white;
+        }
+        .iron-man {
+            background-color: #ff6666;
+        }
+        .captain-america {
+            background-color: #66b2ff;
+        }
+        .thor {
+            background-color: #ccccff;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="https://images.seeklogo.com/logo-png/54/2/vaughn-hockey-logo-png_seeklogo-543282.png" alt="Logo" style="width: 40px; height: 40px;">
+            </a>    
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Homepage</a>
+                    </li>   
+                    <li class="nav-item">
+                        <a class="nav-link" href="page1.html">Page 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="page2.html">Page 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="page3.html">Page 3</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control" type="text" placeholder="search...">
+                    <button class="btn btn-success" type="button">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <br>
+    <br>
+
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Favorite Characters</h1>
+
+        <h2 class="text-center text-danger">Strongest Character</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="character-card iron-man">
+                    <img src="https://static.wikia.nocookie.net/marvelcinematicuniverse/images/9/9d/Iron_Man_Infobox.jpg/revision/latest?cb=20240802142023" alt="Iron Man" class="img-fluid rounded">
+                    <h3>Iron Man</h3>
+                    <p>Genius, Billionaire, Philanthropist. Stark’s confidence is only matched by his high-flying abilities as a sleek Marvel icon.</p>
+                    <ul class="list-unstyled">
+                        <li>✓ Super-Genius Intelligence</li>
+                        <li>✓ Master Engineer</li>
+                        <li>✓ Skilled Combatant</li>
+                        <li>✓ Armor</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="character-card captain-america">
+                    <img src="https://static.wikia.nocookie.net/marvelcinematicuniverse/images/b/b7/Steve_Rogers_Infobox.jpg/revision/latest?cb=20231025163634" alt="Captain America" class="img-fluid rounded">
+                    <h3>Captain America</h3>
+                    <p>Recipient of the Super Soldier serum, Steve Rogers fights for American ideals as one of the world’s mightiest heroes.</p>
+                    <ul class="list-unstyled">
+                        <li>✓ Super Soldier Serum</li>
+                        <li>✓ Peak Human Strength</li>
+                        <li>✓ Advanced Military Operator</li>
+                        <li>✓ Vibranium Shield</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="character-card thor">
+                    <img src="https://static.wikia.nocookie.net/marvelcinematicuniverse/images/2/22/Thor_in_LoveAndThunder_Poster.jpg/revision/latest?cb=20231021012616" alt="Thor" class="img-fluid rounded">
+                    <h3>Thor</h3>
+                    <p>The son of Odin uses his mighty abilities as the God of Thunder to protect his home Asgard and planet Earth alike.</p>
+                    <ul class="list-unstyled">
+                        <li>✓ Super-Genius Intelligence</li>
+                        <li>✓ Master Engineer</li>
+                        <li>✓ Skilled Combatant</li>
+                        <li>✓ Armor</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="text-center mt-5">Original Characters</h2>
+        <table class="table table-striped mt-3">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Character</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Iron Man</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Captain America</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Thor</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Black Widow</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Hulk</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Hawkeye</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
